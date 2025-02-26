@@ -13,7 +13,7 @@ pilihan=input("Pilih Program(1/2/3/4) : ")
 
   elif pilihan == '2':
       desimal=int(input("Masukkan Bilangan Desimal : ")
-      hexadesimal=hex(desimal)[:2]
+      hexadesimal=hex(desimal)[2:]
     print(f"Bilangan Hexadesimal{hexadesimal}")
 
 elif pilihan == '3':
