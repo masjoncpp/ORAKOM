@@ -1,0 +1,10 @@
+Penjelasan Kode:
+1. Definisi Fungsi: `def konversi_bilangan():` mendefinisikan fungsi yang akan melakukan konversi bilangan.
+2. Menu Pilihan: `print("Pilih Menu Konversi :")` menampilkan menu pilihan konversi kepada pengguna.
+3. Input Pilihan: `pilihan = input("Pilih Program (1/2/3/4) : ")` meminta pengguna untuk memilih jenis konversi yang diinginkan.
+4. Konversi Desimal ke Oktal: Jika pengguna memilih '1', program meminta input desimal, mengonversinya ke oktal, dan menampilkan hasilnya.
+5. Konversi Desimal ke Hexadesimal: Jika pengguna memilih '2', program meminta input desimal, mengonversinya ke hexadesimal, dan menampilkan hasilnya.
+6. Konversi Oktal ke Desimal: Jika pengguna memilih '3', program meminta input oktal, mengonversinya ke desimal, dan menampilkan hasilnya.
+7. Konversi Hexadesimal ke Desimal: Jika pengguna memilih '4', program meminta input hexadesimal, mengonversinya ke desimal, dan menampilkan hasilnya.
+8. Input Tidak Valid: Jika input tidak sesuai dengan pilihan yang ada, program menampilkan pesan bahwa input tidak ada.
+9. Memanggil Fungsi: `konversi_bilangan()` memanggil fungsi untuk menjalankan program.
