@@ -24,9 +24,14 @@ def konversi_desimal_ke_biner(desimal):
     
     while n > 0:
         remainder = n % 2
-        steps.append(f"{n} ÷ 2 = {n//2} sisa {remainder}")
+        quotient = n // 2
+        steps.append(f"{n} ÷ 2 = {quotient} sisa {remainder}")
         remainders.append(remainder)
-        n = n // 2
+        n = quotient
+    
+    # Menghilangkan langkah terakhir jika hasil bagi adalah 0
+    if steps and steps[-1].startswith("1"):
+        steps.pop()
     
     remainders.reverse()
     biner = ''.join(map(str, remainders))
